@@ -9,12 +9,17 @@
   </head>
   <body>
     <header>
-      <nav>
-        <ul>
+      <nav class="main-nav">
+        <ul class="nav-links">
           <li class="active"><a href="index.html">Home</a></li>
           <li><a href="portfolio.html">Portfolio</a></li>
           <li><a href="about.html">About Me</a></li>
         </ul>
+        <div id="burger" class="burger">
+          <i onclick="myFunction(this)" class="burgericon"></i>
+          <div class="line line1"></div>
+          <div class="line line2"></div>
+        </div>
       </nav>
     </header>
     <main class="index-main">
@@ -27,11 +32,12 @@
           Progress is the process of gradually improving or getting nearer to
           achieving or completing something.
         </p>
-        <button><a href="portfolio.html">Further</a></button>
+        <a href="portfolio.html"><button>Further</button></a>
       </div>
     </main>
     <footer>
       <p>© 2021 Einar Helgi Jóhannsson</p>
     </footer>
+    <script src="main.js"></script>
   </body>
 </html>

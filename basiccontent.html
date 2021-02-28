@@ -9,12 +9,17 @@
   </head>
   <body>
     <header>
-      <nav>
-        <ul>
+      <nav class="main-nav">
+        <ul class="nav-links">
           <li><a href="index.html">Home</a></li>
           <li><a href="portfolio.html">Portfolio</a></li>
           <li><a href="about.html">About Me</a></li>
         </ul>
+        <div id="burger" class="burger">
+          <i onclick="myFunction(this)" class="burgericon"></i>
+          <div class="line line1"></div>
+          <div class="line line2"></div>
+        </div>
       </nav>
     </header>
     <main>
@@ -95,5 +100,6 @@
     <footer>
       <p>© 2021 Einar Helgi Jóhannsson</p>
     </footer>
+    <script src="main.js"></script>
   </body>
 </html>
