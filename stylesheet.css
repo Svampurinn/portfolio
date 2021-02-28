@@ -93,8 +93,8 @@
   justify-self: center;
 }
 button {
-  background-color: #333;
-  border: none;
+  border: solid 1px white;
+  background: none;
   border-radius: 10px;
   text-transform: uppercase;
   color: white;
