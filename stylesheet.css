@@ -100,7 +100,8 @@ button {
   color: white;
   font-size: 1rem;
   padding: 1rem;
-  float: right;
+  margin-top: 1rem;
+  float: left;
 }
 body {
   background: linear-gradient(
