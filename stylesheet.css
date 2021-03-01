@@ -1,8 +1,8 @@
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap");
 * {
   margin: 0;
   box-sizing: border-box;
 }
-@import url("https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap");
 
 .main-nav {
   display: flex;
@@ -55,7 +55,7 @@
   cursor: pointer;
 }
 .line {
-  height: 2 px;
+  height: 2px;
   width: 35px;
   margin: 0.5rem;
   background: linear-gradient(
@@ -151,6 +151,7 @@ section {
 h2 {
   color: white;
   padding-top: 2rem;
+  padding-bottom: 1rem;
   text-align: left;
   font-family: "Playfair Display", serif;
 }
@@ -438,6 +439,7 @@ i {
     margin-right: 15px;
     margin-top: 10px;
     display: block;
+    float: right;
   }
   .closeicon {
     background-image: url(img/x.png);
@@ -448,5 +450,6 @@ i {
     margin-right: 15px;
     margin-top: 10px;
     background-repeat: no-repeat;
+    float: right;
   }
 }
