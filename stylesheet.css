@@ -106,6 +106,7 @@ button {
   margin-top: 1rem;
   float: left;
   cursor: pointer;
+  letter-spacing: 0.1rem;
 }
 button:hover {
   background: linear-gradient(
